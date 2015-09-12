@@ -1,0 +1,32 @@
+Robert Thyberg
+Paul Kasum
+CMPS 109
+
+ASG6
+  This assignment ended up taking alot more time than needed. When we first set out we wanted to maximize the use of threading by using all of a computers core. We heard there were issues on the linux computers with using all 8 cores so we went for a less ambitious goal of only using 2 threads. Since we spent a good amount of time researching threading as we both havnt used them before we fell behind on some game features. We have the player go first everytime and do not have a pi rule enabled. Overall even tho the actually game may not be the best I feel we both learned alot about implementation of threading and uses for optmizations. 
+
+
+NOTES:
+- We forgot to handshake on crowdgrader even tho we hand shook for asg5
+- We will both be submitting the same asg as we worked together but on our own accounts since we forgot
+
+Test output:
+
+ \p\p\p\p\p\-\-\-\-\-\c\
+  \-\-\-\-\-\-\-\-\-\c\-\
+   \-\-\-\-\-\-\-\-\p\c\-\
+    \-\-\-\c\-\-\-\-\c\-\-\
+     \-\-\p\-\p\p\-\c\-\-\-\
+      \-\-\-\-\-\-\-\c\-\-\-\
+       \-\-\-\-\-\-\-\c\-\p\-\
+        \-\-\-\c\-\p\p\c\p\-\-\
+         \-\-\-\-\c\-\c\p\-\-\-\
+          \-\-\-\-\-\c\-\-\-\-\-\
+           \-\-\-\-\c\-\-\-\-\-\-\
+Computer Wins
+
+
+
+MAKEFILE COMMANDS:
+make all                     //compiles all the code
+make clean                   // removes graph
